@@ -52,7 +52,9 @@ function App() {
               />
               <div class="checkmark"></div>
             </label>
-            <h2>{t.task}</h2>
+            <h2>
+              {t.task}
+            </h2>
           </div>
 
           <button className="delete" onClick={() => deleteHandler(i)}>
@@ -68,7 +70,9 @@ function App() {
       <div className="main">
         <div className="heading">
           <h2>Nerd Notes</h2>
-          <p><span>Productivity</span> is just a click away.</p>
+          <p>
+            <span>Productivity</span> is just a click away.
+          </p>
         </div>
         <div className="task_container">
           <div className="task">
